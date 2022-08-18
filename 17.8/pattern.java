@@ -1,16 +1,20 @@
 import java.util.*;
 
-import javax.sound.sampled.SourceDataLine;
 class pattern{
     public static void main(String[] args) {
-        int x=5,i=1;
-        while(i<=x){
-            int j=1;
-            while(j++<=i){
+        int n=5;
+        for(int x=1;x<=n;x++){
+            for(int y=1;y<=n-x-1;y++)
+            System.out.print(" ");
+
+            for(int y=2*x;y>=1;y--){
+                if(y%2==0)
                 System.out.print("*");
+                else
+                System.out.print(" ");
             }
-            System.out.println();
-            i++;
+        System.out.println();
+    
+        }
         }
     }
-}
