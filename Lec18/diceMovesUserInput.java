@@ -9,18 +9,17 @@ public class diceMovesUserInput {
         printPath(0, n, "");
     }
 
-    public static void printPath(int curr, int end, String ans){
-        if(curr == end){
+    public static void printPath(int curr, int end, String ans) {
+        if (curr == end) {
             System.out.println(ans);
             return;
         }
 
-        if(curr > end)
-        return;
+        if (curr > end)
+            return;
 
-        for(int x = 1; x <= end; x++){
+        for (int x = 1; x <= end; x++) {
             printPath(curr + x, end, ans + x);
         }
     }
 }
-
