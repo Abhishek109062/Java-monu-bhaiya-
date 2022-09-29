@@ -1,4 +1,4 @@
-package lec17;
+package Lec17;
 
 public class permute {
     public static void main(String[] args) {
