@@ -11,7 +11,7 @@ public class diceMovesUserInput {
 
     public static void printPath(int curr, int end, String ans) {
         if (curr == end) {
-            System.out.println(ans);
+            System.out.println(ans  );
             return;
         }
 
