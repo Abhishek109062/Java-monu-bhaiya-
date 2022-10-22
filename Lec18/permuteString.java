@@ -23,13 +23,13 @@ public class permuteString {
         }
     }
 
-    public static void permute(String ques, String ans) {
-        if (ques.length() == 0) {
-            System.out.println(ans);
-            return;
-        }
+    // public static void permute(String ques, String ans) {
+    //     if (ques.length() == 0) {
+    //         System.out.println(ans);
+    //         return;
+    //     }
 
-    }
+    // }
 
     public static void swap(int i, int j, char[] ch) {
         char temp = ch[i];
